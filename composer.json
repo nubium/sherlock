@@ -3,7 +3,10 @@
     "description": "Codeception module to check for tracy bluescreen.",
     "type": "library",
     "require": {
-        "codeception/codeception": "~2.1.0"
+        "codeception/codeception": "~2.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +15,10 @@
             "email": "jiri.travnicek@nubium.cz"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "minimum-stability": "stable"
 }
